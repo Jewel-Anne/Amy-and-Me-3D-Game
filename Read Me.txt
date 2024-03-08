@@ -1,0 +1,28 @@
+Amy and Me version 3.1.0
+Created by: Ryan Dacanay and Jewel Anne Reyes
+Year 2023
+
+To play the game, run the Amy and Me Application.
+
+~~~~MECHANICS~~~~
+The player who has the ball at the end of the round wins.
+
+To win the game, you must get the ball from the floor or from Amy (enemy)
+and keep it until the 3-minute time is up. 
+
+If you have the ball, Amy will chase you.
+If Amy has the ball, you should chase Amy. 
+
+
+~~~~CONTROLS~~~~
+You can use the mouse to look around.
+Press "W" to move forward.
+Press "S" to move backward.
+Press "A" to move to the left.
+Press "D" to move to the right.
+Press "E" to pick up the object from the floor or get it from Amy.
+
+Note that if you press the "E" key while holding the ball, 
+the ball will be dropped to the floor. 
+
+Goodluck and have fun! 
