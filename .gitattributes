@@ -1,2 +1,4 @@
 Amy[[:space:]]and[[:space:]]Me_Data/sharedassets2.assets.resS filter=lfs diff=lfs merge=lfs -text
 Unity[[:space:]]Code/ filter=lfs diff=lfs merge=lfs -text
+*.skp filter=lfs diff=lfs merge=lfs -text
+*.unitypackage filter=lfs diff=lfs merge=lfs -text
