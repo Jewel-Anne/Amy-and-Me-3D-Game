@@ -1,0 +1,588 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1686553524180796, "dur": 9102563, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686553524199517, "dur": 131180, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686553524330702, "dur": 760146, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686553525090854, "dur": 5050661, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686553530141520, "dur": 3130748, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686553533272273, "dur": 11083, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686553533293171, "dur": 1166, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1686553529222922, "dur": 807520, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686553529227407, "dur": 253929, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686553529919173, "dur": 35239, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686553529954421, "dur": 75979, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686553529958068, "dur": 68962, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686553530080645, "dur": 8074, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686553530052670, "dur": 40009, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686553533299273, "dur": 1565, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1686553530454238, "dur":8351, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686553530462614, "dur":1287, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1686553530464143, "dur":120, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1686553530464264, "dur":969, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1686553530465354, "dur":3672, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686553530469026, "dur":5, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686553533055127, "dur":11, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686553533055138, "dur":47, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686553533055185, "dur":109, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686553533055294, "dur":71, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686553533055365, "dur":12, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686553533055377, "dur":34, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686553533055412, "dur":10, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686553533055422, "dur":28, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686553533055450, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686553533055521, "dur":7, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686553533055848, "dur":11826, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1686553530472834, "dur":2, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553530472836, "dur":29898, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553530502819, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686553530502841, "dur":1515, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553530504366, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686553530504461, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553530508873, "dur":17866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686553530526771, "dur":545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1686553530527329, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553530527359, "dur":33815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1686553530561312, "dur":1903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1686553530563234, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553530565046, "dur":13238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1686553530578410, "dur":769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1686553530579191, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553530579219, "dur":35456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1686553530614808, "dur":1188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1686553530616009, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553530616033, "dur":11882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1686553530628046, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553530628366, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553530629738, "dur":8474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553530638429, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2.exe" }}
+,{ "pid":12345, "tid":1, "ts":1686553530638577, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553530638597, "dur":87653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2.exe" }}
+,{ "pid":12345, "tid":1, "ts":1686553530726398, "dur":1608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1686553530728026, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553530730315, "dur":74853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1686553530805354, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553530805546, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553530805572, "dur":56312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553530862032, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553530862189, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553530862218, "dur":20268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553530882648, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553530882807, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553530882835, "dur":26974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553530909938, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553530910079, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553530910102, "dur":11471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553530921705, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553530921877, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553530921903, "dur":39480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553530961532, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553530961714, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553530961742, "dur":5958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553530967838, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553530967989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553530968011, "dur":16020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553530984165, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553530984317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553530984339, "dur":32800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531017269, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531017417, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553531017443, "dur":9523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531027098, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531027257, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553531027283, "dur":6412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531033825, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531034061, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553531034088, "dur":8517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531042735, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531042906, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553531042929, "dur":4867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531047922, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531048063, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553531048086, "dur":6571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531054792, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531054930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553531054955, "dur":6764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531061851, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531061996, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553531062021, "dur":4076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531066224, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531066363, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553531066477, "dur":12425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531079022, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531079183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553531079206, "dur":11723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531091063, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531091206, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553531091233, "dur":8230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531099679, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531099839, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553531099882, "dur":38018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531138038, "dur":19701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531157756, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553531157787, "dur":5032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531162977, "dur":3565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531166560, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553531166591, "dur":6944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531173693, "dur":22236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531195948, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553531196067, "dur":12175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531208380, "dur":8594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531216986, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553531217008, "dur":7813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531224966, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531225105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553531225130, "dur":57681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531282957, "dur":535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531283771, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553531283805, "dur":31386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531315326, "dur":529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531315867, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553531315890, "dur":41161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531357232, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531357392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553531357418, "dur":30857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531388406, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531388547, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553531388569, "dur":6731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531395445, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531395597, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553531395618, "dur":53662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686553531449413, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":1, "ts":1686553531449686, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553531449709, "dur":7683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":1, "ts":1686553531457523, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":1, "ts":1686553531457811, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553531457835, "dur":3242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":1, "ts":1686553531461204, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1686553531461481, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553531461504, "dur":8673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1686553531470321, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":1, "ts":1686553531470554, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553531470573, "dur":6167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":1, "ts":1686553531476931, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":1, "ts":1686553531477240, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553531477263, "dur":12591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":1, "ts":1686553531490009, "dur":304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1686553531490327, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553531490352, "dur":8166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1686553531498662, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1686553531498815, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686553531498841, "dur":1555839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1686553533054841, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1686553533054846, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553530473852, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553530473854, "dur":29207, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553530503062, "dur":939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1686553530504011, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553530509995, "dur":27515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1686553530543279, "dur":4891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1686553530548189, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553530548223, "dur":23870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1686553530572234, "dur":373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1686553530572641, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553530572667, "dur":40605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1686553530613415, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1686553530613780, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553530613894, "dur":15993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1686553530630027, "dur":332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553530630373, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553530631403, "dur":113093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553530744644, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553530744824, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553530744852, "dur":47347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553530792337, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553530792528, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553530792555, "dur":51841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553530844543, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553530844720, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553530844751, "dur":21062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553530865957, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553530866138, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553530866166, "dur":17976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553530884278, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553530884427, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553530884450, "dur":25689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553530910266, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553530910404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553530910424, "dur":11574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553530922124, "dur":7401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553530929543, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553530929572, "dur":3781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553530933479, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553530933636, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553530933741, "dur":31290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553530965187, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553530965396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553530965419, "dur":23307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553530988887, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553530989035, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553530989060, "dur":34884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531024085, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531024234, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553531024260, "dur":5201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531029599, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531029739, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553531029815, "dur":4838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531034786, "dur":2067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531036872, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553531036900, "dur":9817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531046846, "dur":2871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531049729, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553531049750, "dur":73802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531124021, "dur":2215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531126254, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553531126285, "dur":3693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531130110, "dur":12233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531142361, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553531142391, "dur":5175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531147696, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531147839, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553531147865, "dur":29948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531178015, "dur":2285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531180315, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553531180342, "dur":7063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531187531, "dur":24357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531211906, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553531211935, "dur":4580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531216648, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531216789, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553531216814, "dur":47279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531264241, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531264396, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553531264425, "dur":25118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531289903, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531290076, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553531290104, "dur":24675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531314923, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531315068, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553531315095, "dur":31564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531346786, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531346921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553531346946, "dur":40957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531388052, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531388285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553531388311, "dur":6486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531394957, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531395119, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553531395146, "dur":43691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531439001, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531439145, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553531523113, "dur":53216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686553531576459, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1686553531576591, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553531576615, "dur":89366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1686553531666099, "dur":969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1686553531667081, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553531667105, "dur":11327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1686553531678736, "dur":499396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1686553532178149, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553532178177, "dur":71802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1686553532250136, "dur":22083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1686553532272236, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686553532272264, "dur":3753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1686553532276191, "dur":778723, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553530473899, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553530473900, "dur":29135, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553530503037, "dur":474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1686553530503555, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553530509982, "dur":57824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1686553530567934, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1686553530568216, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553530568389, "dur":10279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1686553530578833, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1686553530579189, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553530581870, "dur":34738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1686553530616826, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1686553530617144, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553530617168, "dur":10388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1686553530627704, "dur":348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1686553530628063, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553530628090, "dur":6378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1686553530634602, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1686553530635120, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553530635142, "dur":93212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1686553530728504, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553530728676, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553530730631, "dur":9312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553530740103, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553530740273, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553530742073, "dur":50158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553530792391, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553530792547, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553530792567, "dur":56480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553530849204, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553530849404, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553530849432, "dur":17407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553530867029, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553530867191, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553530867217, "dur":17049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553530884404, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553530884571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553530884594, "dur":26497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553530911232, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553530911375, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553530911396, "dur":11970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553530923515, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553530923659, "dur":19, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553530923702, "dur":41314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553530965179, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553530965343, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553530965372, "dur":18454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553530983978, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553530984133, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553530984160, "dur":57358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531041655, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531041800, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553531041826, "dur":4646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531046604, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531046753, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553531046774, "dur":4135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531051039, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531051179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553531051202, "dur":7462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531058801, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531058942, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553531058971, "dur":4232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531063331, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531063721, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553531063747, "dur":9691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531073564, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531073701, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553531073726, "dur":5050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531078898, "dur":529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531079438, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553531079458, "dur":7885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531087476, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531087614, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553531087640, "dur":82356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531170129, "dur":2721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531172870, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553531172902, "dur":4297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531177350, "dur":704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531178069, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553531178099, "dur":5205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531183452, "dur":13719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531197186, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553531197211, "dur":5951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531203320, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531203463, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553531203490, "dur":57256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531260904, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531261070, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553531261098, "dur":6351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531267589, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531267816, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553531267843, "dur":24395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531292428, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531292582, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553531292609, "dur":22247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531314986, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531315144, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553531315166, "dur":31734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531347031, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531347180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553531347199, "dur":43673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531391014, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Pathfinding.Ionic.Zip.Reduced.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531391165, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553531391193, "dur":4966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Pathfinding.Ionic.Zip.Reduced.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531396299, "dur":9586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531405901, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553531405931, "dur":3575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531409643, "dur":12726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/AstarPathfindingProject.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531422388, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553531422418, "dur":3830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/AstarPathfindingProject.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531426385, "dur":3113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531429516, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553531429544, "dur":114030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686553531543811, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686553531544063, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553531544299, "dur":35644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686553531580133, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686553531580285, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553531580311, "dur":85657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686553531666092, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686553531666221, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553531666330, "dur":39199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686553531705690, "dur":587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686553531706289, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553531706313, "dur":65208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686553531772674, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/level8" }}
+,{ "pid":12345, "tid":3, "ts":1686553531772967, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553531773025, "dur":26806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/level8" }}
+,{ "pid":12345, "tid":3, "ts":1686553531800019, "dur":7241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/level6" }}
+,{ "pid":12345, "tid":3, "ts":1686553531807275, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553531807299, "dur":139436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/level6" }}
+,{ "pid":12345, "tid":3, "ts":1686553531946878, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/level4.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686553531947027, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553531947050, "dur":19927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/level4.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686553531967115, "dur":2181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1686553531969314, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553531969340, "dur":3826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1686553531973306, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/level3.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686553531973446, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553531973470, "dur":4670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/level3.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686553531978275, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1686553531978429, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553531978452, "dur":19004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1686553531997614, "dur":1790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1686553531999421, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553531999446, "dur":12751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1686553532012649, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686553532012811, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553532012835, "dur":11303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686553532024284, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1686553532024420, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553532024443, "dur":6283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1686553532030862, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686553532030996, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553532031019, "dur":10046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686553532041204, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1686553532041338, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553532041361, "dur":3546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1686553532045055, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686553532045194, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686553532045218, "dur":513703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686553532559050, "dur":495833, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553530473984, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553530473986, "dur":28996, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553530502984, "dur":699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1686553530503694, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553530510395, "dur":16328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1686553530526871, "dur":918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1686553530527802, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553530527830, "dur":39627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1686553530567580, "dur":3146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1686553530570743, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553530570804, "dur":9987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1686553530580917, "dur":568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1686553530581497, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553530581799, "dur":32988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1686553530614918, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1686553530615241, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553530615268, "dur":15610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1686553530631020, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553530631308, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553530631326, "dur":230594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553530862065, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553530862230, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553530862253, "dur":20957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553530883349, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553530883589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553530883614, "dur":25829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553530909576, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553530909721, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553530909747, "dur":11948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553530921821, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553530921956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553530921976, "dur":45223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553530967341, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553530967518, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553530967544, "dur":16408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553530984101, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553530984262, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553530984285, "dur":22282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531006712, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531006857, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553531006884, "dur":17074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531024231, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531024412, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553531024435, "dur":6205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531030786, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531030930, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553531030952, "dur":6892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531037970, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531038114, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553531038138, "dur":6958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531045269, "dur":456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531045738, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553531045761, "dur":3390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531049273, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531049408, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553531049430, "dur":9417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531058971, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531059111, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553531059131, "dur":5156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531064420, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531064564, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553531064588, "dur":7388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531072110, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531072250, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553531072277, "dur":5444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531077867, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531078005, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553531078031, "dur":3761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531081935, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531082160, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553531082187, "dur":13341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531095660, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531095795, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553531095821, "dur":67570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531163527, "dur":15289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531178830, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553531178856, "dur":7345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531186367, "dur":719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531187102, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553531187130, "dur":4299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531191569, "dur":41550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531233136, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553531233166, "dur":91907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531325217, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531325371, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553531325398, "dur":34335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531359862, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531360003, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553531360030, "dur":14922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531375351, "dur":571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531375938, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553531375966, "dur":19884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531395995, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531396147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553531396168, "dur":48986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686553531445324, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1686553531445659, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553531447932, "dur":9991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1686553531458046, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":4, "ts":1686553531458419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553531458440, "dur":3395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":4, "ts":1686553531461954, "dur":612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":4, "ts":1686553531462676, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553531462701, "dur":7191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":4, "ts":1686553531470132, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1686553531470411, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553531470435, "dur":6835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1686553531477399, "dur":933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1686553531478346, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553531478371, "dur":15312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1686553531493859, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":4, "ts":1686553531494230, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553531494256, "dur":18333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":4, "ts":1686553531512890, "dur":358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1686553531513267, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553531513294, "dur":180532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1686553531693977, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1686553531694131, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553531694156, "dur":66993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1686553531761289, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/level8.resS" }}
+,{ "pid":12345, "tid":4, "ts":1686553531761438, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553531761462, "dur":21054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/level8.resS" }}
+,{ "pid":12345, "tid":4, "ts":1686553531782726, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/level7" }}
+,{ "pid":12345, "tid":4, "ts":1686553531782885, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553531782908, "dur":22996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/level7" }}
+,{ "pid":12345, "tid":4, "ts":1686553531806075, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/level5.resS" }}
+,{ "pid":12345, "tid":4, "ts":1686553531806254, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553531806278, "dur":138869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/level5.resS" }}
+,{ "pid":12345, "tid":4, "ts":1686553531945289, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/level5" }}
+,{ "pid":12345, "tid":4, "ts":1686553531945423, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553531945447, "dur":298825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/level5" }}
+,{ "pid":12345, "tid":4, "ts":1686553532244625, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1686553532244999, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686553532245023, "dur":19905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/reyes/OneDrive/Desktop/Amy and Me version 3.0.0/ProjectV2_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1686553532265061, "dur":790044, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686553533077610, "dur":15135, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1686553533301557, "dur": 33518, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686553533289814, "dur": 45384, "ph": "X", "name": "Write chrome-trace events", "args": {} },

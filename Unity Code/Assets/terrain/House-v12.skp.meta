@@ -1,0 +1,553 @@
+fileFormatVersion: 2
+guid: 2241acff53bec78488843f8e5bc45c38
+SketchUpImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 105_leather texture-seamless_tint0x33110CFF
+    second: {fileID: 2800000, guid: 7085c5faf5bebdf40a32bbf5a380ffa5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 105_leather texture-seamless_tint0x414444FF
+    second: {fileID: 2800000, guid: b53d25c546e358040acf83c6beabf477, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 106_Calacatta marble tiles PBR texture-seamless_tint0xADD0DBFF
+    second: {fileID: 2800000, guid: 1a13dea4cc432264eb304ceeddfc735b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 106_Calacatta marble tiles PBR texture-seamless_tint0xEDEDEFFF
+    second: {fileID: 2800000, guid: 3a23295eeb610c647ba496439b749a15, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 107_statuary marble tiles 120x280 pbr texture seamless
+    second: {fileID: 2800000, guid: 9d40a15e7a1ec224da4ee8b6a6acd5db, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 10_shantung striped natura wallpaper by Parato texture-seamless_bump_tint0x141414FF
+    second: {fileID: 2800000, guid: 030d8c66816f0c24b9254e4b5933c322, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 10_shantung striped natura wallpaper by Parato texture-seamless_reflect_tint0x0F1316FF
+    second: {fileID: 2800000, guid: 9bef1449e2502c34f9ab6d2a5d507f7c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 112_slate cladding internal walls texture-seamless
+    second: {fileID: 2800000, guid: 5ac28287d9a96804f9000afeeeda667b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 115_painted wood plank texture-seamless
+    second: {fileID: 2800000, guid: 48a2fe885d3743944a0e9ff45263df74, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 11_striped damask wallpaper Dhea by Parato texture-seamless_tint0xB5A58CFF
+    second: {fileID: 2800000, guid: 1d90169594017aa4ea73c4e9d1305a9a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 120513002_779274699522813_1321892384353409641_n
+    second: {fileID: 2800000, guid: 40178375d0fe1df4f8373598596fe503, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 12_hexagonal tile texture-seamless
+    second: {fileID: 2800000, guid: 9721d0e93cb4e2f46af912ea6798752a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 12_hexagonal tile texture-seamless_bump_tint0xE2E2E2FF
+    second: {fileID: 2800000, guid: f06345eca2711c740969ec3bd67b1298, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 13_black gray striped wallpaper texture-seamless
+    second: {fileID: 2800000, guid: 9ed60dc058a35e540878d0181cc2bf0a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 13_uni wallpaper creativa by Parato texture-seamless_bump_tint0x8E8E8EFF
+    second: {fileID: 2800000, guid: 679f299d5c907674c851434513b4dc05, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 13_uni wallpaper creativa by Parato texture-seamless_bump_tint0xFF9B82E6
+    second: {fileID: 2800000, guid: 480c91e8d70a90945bfb60a2bf175ac5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 13_uni wallpaper creativa by Parato texture-seamless_tint0xD39792FF
+    second: {fileID: 2800000, guid: b86cc49c9f40c974fbca3843e5f17141, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 14_venetian plaster texture-seamless_tint0xE7EAD8FF
+    second: {fileID: 2800000, guid: ec4200869de5e0e44a470892acb58d03, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 14_venetian plaster texture-seamless_tint0xFCE9C1FF
+    second: {fileID: 2800000, guid: 500d80545f7abff42a7adbe40efec767, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 165_interior 3D wall panel texture-seamless
+    second: {fileID: 2800000, guid: 585b243365d21494584bf661bb7c1a92, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 18_fire wood texture
+    second: {fileID: 2800000, guid: a11eba2a1cd559a4cb950dfd0fc55b87, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 1_ancient Rome floor tile texture-seamless
+    second: {fileID: 2800000, guid: e7e1c174f263d7d438a3959ea7e9779a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 1_cream wallpaper texture-seamless_tint0xFFD7DDFF
+    second: {fileID: 2800000, guid: cb785187cf3777242b22a442e899e27d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 1_sunset sky background
+    second: {fileID: 2800000, guid: 8b6e9e0a00b2b134b9dda343b072fc0a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 249_brushed silver metal facade cladding texture-seamless
+    second: {fileID: 2800000, guid: 41328741c1e4c7841bd6669c54cf45c2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2_gray wallpaper texture-seamless_tint0x1F2526FF
+    second: {fileID: 2800000, guid: 433a6a7f873049c4493ded2020c0730c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2_gray wallpaper texture-seamless_tint0x374244FF
+    second: {fileID: 2800000, guid: d31ff6473681d054885a69dd833e4560, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 2_gray wallpaper texture-seamless_tint0xB2D5DBFF
+    second: {fileID: 2800000, guid: 9f4c72280f5655b4e93e4ea33c1ceb15, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 32_faux fake fur animal texture-seamless
+    second: {fileID: 2800000, guid: ec5bd1c47d0b22948a4764b6f00bf8cd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 32_soapstone black marble tile texture-seamless
+    second: {fileID: 2800000, guid: 3fde20399ab6da146a54ed823438c2d6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 342600959_1228072854510759_5548881756232480509_n
+    second: {fileID: 2800000, guid: a3032bac089bf684abbae3978f3c51d4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 342797435_765507158509089_258207884737635206_n
+    second: {fileID: 2800000, guid: 55829df4cf0e65e478fbf79ee12bf315, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 344285882_644342767509481_7271075417972549259_n
+    second: {fileID: 2800000, guid: f19078b2f91b4b94bae13fabff4aa195, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 345472486_769828457853759_8542504861682626204_n
+    second: {fileID: 2800000, guid: dd7389054fe9d4547a493aba5a78a21f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 345960732_238329792176525_186703181526679284_n
+    second: {fileID: 2800000, guid: 357bc4150c5ea164ea2d6a027da168b2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 3_lily wallpaper elegance by Parato texture-seamless_tint0x8C99AAFF
+    second: {fileID: 2800000, guid: 29a197665611428418cea8aaf73f7f64, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 45_mahogany plywood texture-seamless_tint0x2B130CFF
+    second: {fileID: 2800000, guid: 1906dc850afe87647ae4a31d2c70c70b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 56_peach blossom Carnian gray marble floor texture-seamless
+    second: {fileID: 2800000, guid: f9fa4d31ce6dbe14db570e0424ee08da, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 5_ancient Rome floor tile texture-seamless
+    second: {fileID: 2800000, guid: afddd299899e6e74485e55a27bb8f883, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 63_calacatta gold marble pbr texture-semless_tint0x6B625DFF
+    second: {fileID: 2800000, guid: e1c1c8234870694429605b403d7b6451, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 63_calacatta gold marble pbr texture-semless_tint0xBA8D7CFF
+    second: {fileID: 2800000, guid: 00012a6e991d65446a6eb1b2547d0988, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 64_calacatta supreme marble pbr texture-seamless_tint0x7A7A7AFF
+    second: {fileID: 2800000, guid: 5174388984fcff34cacaf1b5ca091ebe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 64_calacatta supreme marble pbr texture-seamless_tint0xE8C9BEFF
+    second: {fileID: 2800000, guid: 4cc2240da54d15544b01a43c0d651d5c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 68_Jasmine pink floor marble texture-seamless
+    second: {fileID: 2800000, guid: 668becbd776a9f148b16265da32bb0f2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 71_wood ceramic tile texture-seamless
+    second: {fileID: 2800000, guid: dd38e7bc955799b45991aea9cc4f681c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 76_Carrara veined marble floor tile texture-seamless
+    second: {fileID: 2800000, guid: c7544de3f8e3ce94db62c5dad5b6a774, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 7_flower English wallpaper creativa by Parato texture-seamless_tint0xE89975FF
+    second: {fileID: 2800000, guid: 22875ea74ddbd684fba73bfec901be2c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 82_geometric pattern white marble floor tile texture-seamless
+    second: {fileID: 2800000, guid: d49688222bf8c28409651429ec5257f0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 85_botticino marble tile texture-seamless
+    second: {fileID: 2800000, guid: b621d100f5935094eb68cb6eab70c2c2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 86_dark fine wood texture-seamless
+    second: {fileID: 2800000, guid: 65499a16a9e8af5489e7c1251f99f533, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 89_white interior ceiling tiles panel texture-seamless
+    second: {fileID: 2800000, guid: 78defd2b519dea14aa2369f3d71b6333, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 90_Norwegian style stone tiles pbr texture-seamless_tint0x938E8AFF
+    second: {fileID: 2800000, guid: 5ba78500387bc7443b620b989e11d12d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 91_asphalt roofing shingle texture-seamless
+    second: {fileID: 2800000, guid: 7099572024df7f04da6dff31cdbaca90, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 94_circular brushed silver metal texture
+    second: {fileID: 2800000, guid: ab5b44bd4004f9b409662ab5b5190102, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 98_white circular brushed aluminium metal texture_tint0xD2B69C6B
+    second: {fileID: 2800000, guid: a7ff5bd4dbf178b4785dea51e23a7b83, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Carpet_Plush_Forest
+    second: {fileID: 2800000, guid: 6542a9ea287a8054481f8f9ce7463ad6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Groundcover_Rock_Crushed_Multi
+    second: {fileID: 2800000, guid: aac95937930e8f24abc34963dbc855d1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R
+    second: {fileID: 2800000, guid: 062aa786b2c8d3447b5e142e08fa556a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Translucent_Glass_Saftey
+    second: {fileID: 2800000, guid: bc2c92af4c3d7da43a6275e86816a97e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Translucent_Glass_Tinted_tint0xBA942F45
+    second: {fileID: 2800000, guid: e4289e69eb584514a9d678749195bf9d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Translucent_Glass_Tinted_tint0xFFFE1A99
+    second: {fileID: 2800000, guid: 562950106a63e354d9b76236eff173e8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Vegetation_Juniper2
+    second: {fileID: 2800000, guid: 73dd21954d2e68b48b5cb62d30b5eeca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Water_Pool
+    second: {fileID: 2800000, guid: 8b8b8a1040885f24684f8d41da6fdae4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: __Plant_Cover_Kudzu_
+    second: {fileID: 2800000, guid: 6457699e21dad4c4f87db9c13a10d5b0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: __Wallpaper_Thin_Brown_Stripes_1
+    second: {fileID: 2800000, guid: 9d97a61060af33040a82974733675045, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: __auto_
+    second: {fileID: 2800000, guid: 7c293ec5d7a94ab438aaeeef0dedce83, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: books
+    second: {fileID: 2800000, guid: 85bcd57dc211e204793327aada00e9f2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cartoons
+    second: {fileID: 2800000, guid: 6fb5d5c349177fb418f94b2a02ec87ea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: closet
+    second: {fileID: 2800000, guid: c1854dd48f627a741a9b1461e88e376e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: frosted glass
+    second: {fileID: 2800000, guid: 3f59119e1b42df141a2a16f25c55e12e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: gem3
+    second: {fileID: 2800000, guid: dbe911f82e53d2a45ae4013f52f3f134, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ig
+    second: {fileID: 2800000, guid: 56fe8fd9fe39cad49a005c6f07499e18, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jewel1
+    second: {fileID: 2800000, guid: bb0abae947e15964ea3f6ee905bd48d0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jewel2
+    second: {fileID: 2800000, guid: bd303d0469baabb478190215ee3fca0e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jewel3
+    second: {fileID: 2800000, guid: 8f1e1e2ba5d075b4bad3c0d67809c488, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: kid
+    second: {fileID: 2800000, guid: 4474d4bafa468a544bb4cd58700e3f4c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: mirror
+    second: {fileID: 2800000, guid: 86e0ae54b2f940c4ba256a8efda37197, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: paint1
+    second: {fileID: 2800000, guid: 3b09fc1747019094bad2d0cfbf42bd38, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: paint2
+    second: {fileID: 2800000, guid: c9714b24204d83a46a8be726c68ad783, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ryan1
+    second: {fileID: 2800000, guid: 9602ed74543b6de41aa01f2883fae055, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ryan2
+    second: {fileID: 2800000, guid: ebe852c67b30dc64e9103fe3ba56247c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: shoes
+    second: {fileID: 2800000, guid: f3569e17c4a86c54aaaf307459f18d85, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: spec__010101_19_Material_3_wf_81_BRSD6289
+    second: {fileID: 2800000, guid: 38ade784f0756b74282fa7d5b0958f4f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: spec__0a0a0a_25_usetomatrial_wf_83_BRSD6289
+    second: {fileID: 2800000, guid: 7b9ee79e1ba08974e84a270fe20132f1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: sunset
+    second: {fileID: 2800000, guid: 3cfb34fccbb22034a8d63a9ddcbb435e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: texture
+    second: {fileID: 2800000, guid: 861c2b395a76fc44ebc4cd17ed2fa397, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wp6534074-vintage-kitchen-wallpapers
+    second: {fileID: 2800000, guid: 302c6f1fa415c724d8eb5362fe729d90, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wp8957786-kiddy-wallpapers
+    second: {fileID: 2800000, guid: b6123b64dc23f95449ecbeef70b97112, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.0254
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  generateBackFace: 1
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000ca000000cb000000cc000000cd000000ce000000cf000000d0000000d1000000d2000000d3000000d4000000d5000000d6000000d7000000da000000db000000dc000000dd000000de000000df000000e0000000e1000000e2000000e3000000e4000000e5000000e6000000e7000000e8000000e9000000ea000000eb000000ec000000ed000000
+  assetHash:
+    serializedVersion: 2
+    Hash: d016b260d856ba95107c9d3491b1ea93
+  fileUnit: 0
