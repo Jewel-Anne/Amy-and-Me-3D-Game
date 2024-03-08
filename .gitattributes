@@ -2,3 +2,9 @@ Amy[[:space:]]and[[:space:]]Me_Data/sharedassets2.assets.resS filter=lfs diff=lf
 Unity[[:space:]]Code/ filter=lfs diff=lfs merge=lfs -text
 *.skp filter=lfs diff=lfs merge=lfs -text
 *.unitypackage filter=lfs diff=lfs merge=lfs -text
+Unity[[:space:]]Code/Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
+Unity[[:space:]]Code/Library/PackageCache/com.unity.burst@1.8.2/.Runtime/libburst-llvm-14.dylib filter=lfs diff=lfs merge=lfs -text
+Unity[[:space:]]Code/Library/PackageCache/com.unity.burst@1.8.2/.Runtime/burst-llvm-14.dll filter=lfs diff=lfs merge=lfs -text
+Unity[[:space:]]Code/Library/PackageCache/com.unity.burst@1.8.2/.Runtime/hostmac/dsymutil filter=lfs diff=lfs merge=lfs -text
+Unity[[:space:]]Code/Library/PackageCache/com.unity.burst@1.8.2/.Runtime/libburst-llvm-10.dylib filter=lfs diff=lfs merge=lfs -text
+Unity[[:space:]]Code/Library/PackageCache/com.unity.burst@1.8.2/.Runtime/libburst-llvm-14.so filter=lfs diff=lfs merge=lfs -text
