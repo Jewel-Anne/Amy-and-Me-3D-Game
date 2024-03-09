@@ -3,9 +3,9 @@
 
 To play the game, run the "Amy and Me.exe"
 
-## Created by:
-- Dacanay, Ryan
-- Reyes, Jewel Anne
+## Authors
+- **[Dacanay, Ryan](https://github.com/rpdacanay)**
+- **[Reyes, Jewel Anne A.](https://github.com/Jewel-Anne)**
 
 ## Gameplay:
 1. The game starts with the item (ball) on the floor.
